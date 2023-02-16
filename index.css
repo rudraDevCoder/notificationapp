@@ -1,0 +1,45 @@
+/* Write your code here. */
+#root {
+  padding: 20px;
+}
+.image {
+  width: 50px;
+  padding: 10px;
+}
+.note {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+  border-radius: 20px;
+  border-width: 0px;
+  width: 50%;
+  color: #ffffff;
+}
+
+.note1 {
+  background-color: #0b69ff;
+}
+.note2 {
+  background-color: #2dca73;
+}
+.note3 {
+  background-color: #ffb800;
+}
+.note4 {
+  background-color: #ff0b37;
+}
+.notification-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .note {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+  }
+}
